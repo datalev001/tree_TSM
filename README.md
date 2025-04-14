@@ -1,1 +1,6 @@
-# tree_TSM
+# Dynamic Weighted Trees for Time Series Forecasting
+A Practical, High-Performance, and Interpretable Decision Tree Approach Incorporating Autoregressive Lags, Seasonal Dynamics, and Recency-Driven Weighting
+In this paper, I proposed a practical, high-performance, and interpretable decision tree framework for time series forecasting that combines autoregressive lags, seasonal patterns, and recency-based weighting. The method builds on established AR practices by leveraging lagged values and cyclic features, then applying an exponential decay so that more recent data exerts greater influence.
+I unify these techniques in a decision tree that learns clear, recursive rules. By incorporating weighted lags, seasonal indicators, and a moving average, the model rapidly adapts to changing data conditions. Additionally, the tree naturally captures nonlinear behaviors - eliminating the need for complex ensemble configurations.
+This approach effectively integrates familiar linear AR strategies with the power of nonlinear modeling. It is easy to implement, delivers consistently strong forecasting results, and handles noise and data shifts more reliably than traditional models.
+Moreover, this framework is flexible. You can adopt it as-is or extend it into more advanced paradigms, such as boosted tree time series forecasting. And because decision trees are inherently interpretable, the model provides transparent, straightforward rules that explain how predictions are made.
